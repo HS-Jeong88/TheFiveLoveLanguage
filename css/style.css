@@ -1,0 +1,88 @@
+@import "reset.css";
+
+body {
+    background-color: #fff9f9;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+}
+
+#contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inputInfo {
+    margin-top: 10%;
+    text-align: center;
+}
+
+input {
+    margin-top: 15px;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    font-size: 100%;
+    color: black;
+}
+
+button:active {
+    transform: scale(0.99);
+    color: rgba(250, 250, 255, 0.8);
+}
+
+.canvas {
+    text-align: center;
+}
+
+.result {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.vsImg {
+    margin-top: 9%;
+    padding-left: 7%;
+    width: 18%;
+    height: 10%;
+    z-index: -1;
+}
+
+.leftSide {
+    left: 0;
+    margin-top: 10%;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-weight: 900;
+}
+
+.rightSide {
+    right: 0;
+    margin-top: 10%;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-weight: 900;
+}
+
+.lBtn {
+    left: 0%;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.rBtn {
+    right: 0%;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
