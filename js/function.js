@@ -58,7 +58,8 @@ function clickA() {
         lBtn.parentNode.removeChild(lBtn);
         rBtn.parentNode.removeChild(rBtn);
         round++;
-        makeBtn();
+    console.log(answers[round+1]);
+    makeBtn();
     }
 }
 
@@ -74,7 +75,8 @@ function clickB() {
         lBtn.parentNode.removeChild(lBtn);
         rBtn.parentNode.removeChild(rBtn);
         round++;
-        makeBtn();
+    console.log(answers[round+1]);
+    makeBtn();
     }
 }
 
@@ -99,6 +101,7 @@ function roundStart() {
     saveQuestion("TFLL", selectedCounter);
     makeBtn();
     paintImage();
+    console.log(answers[round+1]);
 }
 
 function inputMyPartner(q) {

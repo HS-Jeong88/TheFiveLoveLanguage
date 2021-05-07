@@ -19,7 +19,9 @@ body {
     margin-top: 10%;
     text-align: center;
 }
-
+#canvas{
+    padding: 10px 10px 10px;
+}
 input {
     margin-top: 15px;
 }
