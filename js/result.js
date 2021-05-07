@@ -1,3 +1,4 @@
+'use strict';
 const inputResult = document.querySelector(".result");
 // const getArray = JSON.parse(localStorage.getItem("TFLL"));
 const getArray = [1,2,3,9,10];
